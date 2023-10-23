@@ -21,8 +21,10 @@ platformdirs==3.10.0
 pooch==1.7.0
 protobuf==4.24.3
 PyMatting==1.1.8
+pypng==0.20220715.0
 pyreadline3==3.4.1
 PyWavelets==1.4.1
+qrcode==7.4.2
 rembg==2.0.50
 requests==2.31.0
 scikit-image==0.21.0
@@ -30,4 +32,5 @@ scipy==1.11.3
 sympy==1.12
 tifffile==2023.9.26
 tqdm==4.66.1
+typing_extensions==4.8.0
 urllib3==2.0.5
