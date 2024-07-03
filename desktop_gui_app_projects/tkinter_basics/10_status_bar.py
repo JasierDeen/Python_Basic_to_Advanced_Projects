@@ -15,4 +15,8 @@ my_menu.add_cascade(label="File", menu=sub_menu)
 sub_menu.add_command(label="Project", command=func)
 sub_menu.add_command(label="Save", command=func)
 
+# Status Bar
+status = Label(text="This is the current status", bd=1, relief=SUNKEN, anchor=W)
+status.pack(side=BOTTOM, fill=X)
+
 root.mainloop()
